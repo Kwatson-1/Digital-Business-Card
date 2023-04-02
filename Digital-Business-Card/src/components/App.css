@@ -1,0 +1,54 @@
+.phone {
+  background-image: url('../images/iphone-frame.png');
+  background-size: cover;
+  background-position: center;
+  width: 19.5vw
+    /* width of the iPhone image */
+  ;
+  height: 40vw
+    /* height of the iPhone image */
+  ;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.884);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: calc(24px + 2vw);
+  margin-top: 3%;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.438);
+  background-blend-mode: multiply;
+  min-width: 246px;
+  min-height: 500px;
+}
+
+.phone-screen {
+  position: absolute;
+  top: 6.42%;
+  /* Adjust this value based on the position of the screen area */
+  left: 8.0%;
+  /* Adjust this value based on the position of the screen area */
+  width: 84.1%;
+  /* Adjust this value based on the width of the screen area */
+  height: 90.0%;
+  /* Adjust this value based on the height of the screen area */
+  overflow: auto;
+  /* adjust padding as needed */
+  background-color: rgba(255, 255, 255, 0.884);
+  border-radius: calc(5px + 2vw);
+  background-blend-mode: hard-light;
+}
+
+body {
+  background-image: url('../images/white-abstract-background.jpg');
+  background-size: cover;
+
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* Ensure the container covers the full viewport height */
+  overflow: hidden;
+  /* Hide content that goes beyond the viewport */
+}
