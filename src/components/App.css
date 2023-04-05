@@ -111,13 +111,6 @@ body {
 
 }
 
-.contact-information {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 1vw;
-
-}
-
 .about-blurb {
   font-size: 0.5vw;
 }
@@ -142,3 +135,31 @@ h1 span {
 .footer {}
 
 .content {}
+
+p {
+  padding-left: 20px;
+  font-family: 'Monterrat', sans-serif;
+  font-weight: 100;
+  font-size: 1.0vw;
+
+}
+
+br {
+  display: none; /* Hide the line break */
+}
+
+
+.linkedin-app {
+  width: 20%;
+  height: 20%;
+}
+
+.email-app {
+  width: 15%;
+  height: 15%;
+}
+
+.phone-app {
+  width: 15%;
+  height: 15%;
+}
