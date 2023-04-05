@@ -5,12 +5,12 @@ import emailApp from '../images/email-app.png';
 import phoneApp from '../images/phone-app.png';
 export default function Info() {
     return (
-        <div className='content'>
+        <div className='info-container'>
             <h1><span>Kyle</span> Watson</h1>
 
-            <h4 className='info-role'>Developer</h4>
+            <h2 className='info-role'>Developer</h2>
 
-            <div>
+            <div className='contact-info'>
                 <p>
                     <img className="phone-app" src={phoneApp} />
                     +61 424466010
