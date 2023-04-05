@@ -14,10 +14,11 @@
   margin-right: auto;
   border-radius: calc(24px + 2vw);
   margin-top: 3%;
-  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.438);
-  background-blend-mode: multiply;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.65);
+  background-blend-mode: normal;
   min-width: 246px;
   min-height: 500px;
+  overflow: hidden;
 }
 
 .phone-screen {
@@ -35,6 +36,8 @@
   background-color: rgba(255, 255, 255, 0.884);
   border-radius: calc(5px + 2vw);
   background-blend-mode: hard-light;
+
+  overflow: hidden;
 }
 
 body {
@@ -52,3 +55,90 @@ body {
   overflow: hidden;
   /* Hide content that goes beyond the viewport */
 }
+
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 5%
+    /* Distance from the top edge of the phone screen */
+  ;
+  width: 100%;
+  /* Ensure the container takes the full width of the phone screen */
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.profile-image {
+  border-radius: 50%;
+  /* Create a circular shape */
+  width: 55%
+    /* desired width */
+  ;
+  height: 50%
+    /* desired height, should be equal to width */
+  ;
+  object-fit: cover;
+  /* Preserve aspect ratio and avoid distortion */
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+
+}
+
+.personal-logo {
+  width: 30%
+    /* desired width */
+  ;
+  height: 20%
+    /* desired height, should be equal to width */
+  ;
+  object-fit: cover;
+  /* Preserve aspect ratio and avoid distortion */
+  background-blend-mode: lighten;
+
+}
+
+.info-role {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.2vw;
+  color: grey;
+  text-align: center;
+  margin: 0;
+  padding: 0vw 0.5vw 0.5vw 0vw;
+  border-bottom: 1px solid rgb(179, 179, 179);
+
+}
+
+.contact-information {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+
+}
+
+.about-blurb {
+  font-size: 0.5vw;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #D7263D;
+  font-size: 1.7vw;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  padding: 1vw 0.5vw 0vw 0vw;
+}
+
+h1 span {
+  font-family: 'Montserrat', sans-serif;
+  color: #1F4068;
+  font-size: 1.7vw;
+  font-weight: bold;
+}
+
+.footer {}
+
+.content {}
