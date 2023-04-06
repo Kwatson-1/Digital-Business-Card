@@ -11,20 +11,19 @@ export default function Info() {
             <h2 className='info-role'>Developer</h2>
 
             <div className='contact-info'>
-                <p>
+                <p className='contact-detail'>
                     <img className="phone-app" src={phoneApp} />
                     +61 424466010
                 </p>
-                <p>
+                <p className='contact-detail'>
                     <img className="linkedin-app" src={linkedinApp} />
                     /in/kyle-watson-dev
                 </p>
-                <p>
+                <p className='contact-detail'>
                     <img className="email-app" src={emailApp} />
                     kyle.p.watson@gmail.com
                 </p>
             </div>
-
         </div>
     )
 
